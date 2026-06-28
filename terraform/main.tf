@@ -13,6 +13,6 @@ provider "null" {}
 
 resource "null_resource" "demo" {
   triggers = {
-    version = "1"
+    version = "2"
   }
 }
